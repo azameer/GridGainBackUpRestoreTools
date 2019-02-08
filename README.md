@@ -9,7 +9,10 @@ DG.EMAIL_TAGS: PTTSERVERID,PARAMETERID,PARAMETERNAME,PARAMETERTAG,PARAMETERDESCR
 DG.MICROSVCS_COMMONCONFIG: COUNTRYCODE,CLUSTERID,PARAMNAME,PARAMVALUE,PARAMSCOPE,PATH,LASTUPDATETIME \033[1;m'
 DG.OIDC_CLIENT_MAP: OIDC_CLIENT_TYPE,OIDC_SVR_CODE,OIDC_KEY_NAME \033[1;m'
 
-OUTPUT: The ouput would be a tar file in a specific path
+OUTPUT: The ouput would be a tar file in a specific path which is given as input to the restore script below.
+
+
+
 
 This script GGRestore.py would Restore all Grid Gain Data present in input BackUP/*.tgz File.
 
